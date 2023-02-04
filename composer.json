@@ -1,0 +1,23 @@
+{
+    "name": "vansari/php-attributes",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vansari\\PhpAttributes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vansari",
+            "email": "junker.kurt@googlemail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Vansari\\PhpAttributes\\Tests": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
